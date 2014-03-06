@@ -648,7 +648,8 @@
         </menu>
         <window title="radial" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="504"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="335" y="374" width="480" height="504"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <value key="minSize" type="size" width="320" height="320"/>
             <view key="contentView" id="372">
@@ -656,8 +657,8 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <customView id="GBu-T2-8iI" customClass="ColorWheelView">
-                        <rect key="frame" x="20" y="44.000001863046883" width="440" height="440"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                        <rect key="frame" x="20" y="44" width="440" height="440"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     </customView>
                     <slider verticalHuggingPriority="750" id="7iR-rj-0CX">
                         <rect key="frame" x="18" y="18" width="444" height="20"/>
