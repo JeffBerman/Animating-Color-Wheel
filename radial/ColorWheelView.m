@@ -69,7 +69,7 @@
     self.wheelRadius = MIN(self.viewCenter.x, self.viewCenter.y) - 5;
 
     //  Core Graphics points are placed at the center of a pixel and extend out for half a pixel
-    //  in each direction. Since we're stroking the weges with a 1 pixel line we need to back off
+    //  in each direction. Since we're stroking the wedges with a 1 pixel line we need to back off
     //  half a pixel on the apex position so that all the wedge corners meet in the middle instead
     //  of the last one slightly overwriting all of the others.
     CGPoint apex = CGPointMake(0.0, 0.5);
